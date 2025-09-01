@@ -16,7 +16,7 @@ return (
         <div className="w-[360px] h-[450px] border border-purple-500 rounded-lg bg-white shadow-lg">
           {/* sign in  */}
           <div className="p-4 mb-1 ">
-            <h1>Sign up</h1>
+            <h1>Sign in</h1>
             <p>
               or{" "}
               <a
