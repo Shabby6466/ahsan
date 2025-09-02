@@ -8,11 +8,11 @@ const UsersPage = () => {
   return (
     <body className="h-screen bg-gradient-to-b from-purple-600 to-white-900">
       <Header />
-      <div className="absolute top-45 left-10 font-extrabold w-[806px]">
+      <div className="relative top-20 left-10 font-extrabold w-[806px]">
         <h1 className="text-yellow-300">Subscribe Now</h1>
-        <h1 className="text-white">to Our Newsletter</h1>
+        <h1 className=" text-white">to Our Newsletter</h1>
       </div>
-      <div className=" absolute top-80 left-10">
+      <div className="relative top-25 left-10">
         <p className="text-white w-[540px]">
           Lorem ipsumdolor sit amet, consectetu arnum franum. Lorem ipsumdolor
           sit amet, consectetu arnum franum Lorem ipsumdolor sit amet,
@@ -20,7 +20,7 @@ const UsersPage = () => {
           franum
         </p>
       </div>
-      <Input/>
+      <Input />
     </body>
   );
 };
