@@ -1,4 +1,5 @@
 import React from "react";
+import DropdownMenu from "../dropdown";
 
 export default function Header() {
   return (
@@ -18,11 +19,13 @@ export default function Header() {
         </div>
         <div>
           <div className="flex items-center justify-between w-[400px]">
+
             <h6>Home</h6>
             <h6>Services</h6>
             <h6>Blog</h6>
             <h6>About</h6>
             <h6>FAQ</h6>
+            <DropdownMenu/>
           </div>
         </div>
       </div>
