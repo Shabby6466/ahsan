@@ -18,14 +18,13 @@ export default function Header() {
           </div>
         </div>
         <div>
-          <div className="flex items-center justify-between w-[400px]">
-
+          <div className=" flex flex-row items-center justify-between w-[900px]">
             <h6>Home</h6>
             <h6>Services</h6>
             <h6>Blog</h6>
             <h6>About</h6>
             <h6>FAQ</h6>
-            <DropdownMenu/>
+            <DropdownMenu />
           </div>
         </div>
       </div>
