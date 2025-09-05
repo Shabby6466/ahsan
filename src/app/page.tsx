@@ -11,7 +11,7 @@ export default function Login() {
     router.push("/users");
   };
   return (
-    <body className="h-screen bg-gradient-to-b from-purple-600 to-white-900">
+    <body className="h-screen bg-gradient-to-b from-violet-500">
       <div className="flex items-center justify-center h-screen">
         <form onSubmit={handleSubmit} className="p-4">
           <div className="w-[360px] h-[450px] border border-purple-500 rounded-lg bg-white shadow-lg">
