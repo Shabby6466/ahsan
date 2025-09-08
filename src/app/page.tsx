@@ -10,7 +10,7 @@ export default function Home() {
         alt="page background"
         className="absolute h-screen w-screen"
       />
-      <div className="border border-red-800 flex items-center absolute pt-[11px] ">
+      <div className=" flex items-center absolute pt-[11px] ">
         <Header />
       </div>
     </div>

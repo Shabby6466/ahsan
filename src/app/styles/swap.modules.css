@@ -7,5 +7,15 @@
 .Trading{
     font-size: medium;
     align-items: center;
-    color:rgba(224, 0, 0, 0.525)nt
+    color:rgba(255, 255, 255, 0.525)
+}
+.Port{
+    font-size: medium;
+    align-items: center;
+    color:rgba(255, 255, 255, 0.525)
+}
+.Ref{
+    font-size: medium;
+    align-items: center;
+    color:rgba(255, 255, 255, 0.525)
 }
