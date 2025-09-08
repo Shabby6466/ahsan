@@ -1,4 +1,6 @@
-.Header {
-    background-color: #ff0909cb;
-    color: #FFFFFF66;
+.Header{
+  background-color: #ff0909cb;
+  color: #ffffff66;
+  border-radius: 20px;
+  position:relative
 }
