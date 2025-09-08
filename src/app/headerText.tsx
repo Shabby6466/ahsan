@@ -4,7 +4,7 @@ import "./styles/swap.modules.css";
 export default function HeaderText() {
   return (
     <div>
-      <div className="flex flex-row items-center justify-between mx-5 w-[100%]">
+      <ul className="flex flex-row items-center justify-between mx-15 w-[100%]">
         <li className= "">
           <a
             href="https://react.dev/learn/state-a-components-memory"
@@ -28,7 +28,7 @@ export default function HeaderText() {
             Referral
           </a>
         </li>
-      </div>
+      </ul>
     </div>
   );
 }

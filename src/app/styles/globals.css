@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+li {
+  list-style-type: none;
+}
+
+.Left{
+  position: absolute;
+  left:0px;
+  width:1000px;
+  opacity:40%;
+}
+
+.Right{
+  position: absolute;
+  right:0px;
+  top:0px;
+  width:1000px;
+  opacity:40%;
+}
+
+.RightTwo{
+  position: absolute;
+  bottom:1000px;
+  width:1000px;
+  opacity:40%;
+
+}

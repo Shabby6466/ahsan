@@ -13,6 +13,17 @@ export default function Home() {
       <div className=" flex items-center absolute pt-[11px] ">
         <Header />
       </div>
+      <div>
+        <img src="/left-ellipse.png"
+        className="Left"
+        />
+        <img src="/right-ellipse.png"
+        className="Right"
+        />
+        <img src="/right-ellipse.png"
+        className="RightTwo"
+        />
+      </div>
     </div>
   );
 }
