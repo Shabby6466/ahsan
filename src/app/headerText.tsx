@@ -1,11 +1,11 @@
 import React from "react";
-import "./styles/swap.modules.css";
+import "./styles/headerText.modules.css";
 
 export default function HeaderText() {
   return (
     <div>
       <ul className="flex flex-row items-center justify-between mx-15 w-[100%]">
-        <li className= "">
+        <li className="">
           <a
             href="https://react.dev/learn/state-a-components-memory"
             className="Swap"

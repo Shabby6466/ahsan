@@ -28,25 +28,27 @@ li {
   list-style-type: none;
 }
 
-.Left{
+.Left {
   position: absolute;
-  left:0px;
-  width:1000px;
-  opacity:40%;
+  left: 0px;
+  width: 1000px;
+  opacity: 40%;
+  z-index: 0;
 }
 
-.Right{
+.Right {
   position: absolute;
-  right:0px;
-  top:0px;
-  width:1000px;
-  opacity:40%;
+  right: 0px;
+  top: 0px;
+  width: 1000px;
+  opacity: 40%;
+  z-index: 0;
 }
 
-.RightTwo{
+.RightTwo {
   position: absolute;
-  bottom:1000px;
-  width:1000px;
-  opacity:40%;
-
+  bottom: 1000px;
+  width: 1000px;
+  opacity: 40%;
+  z-index: 0;
 }

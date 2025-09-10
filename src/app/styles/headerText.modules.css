@@ -1,0 +1,49 @@
+.Swap {
+  font-size: medium;
+  align-items: center;
+  color: #ffffff66;
+  z-index: 100;
+}
+
+.Trading {
+  font-size: medium;
+  align-items: center;
+  color: #ffffff66;
+  z-index: 100;
+}
+.Port {
+  font-size: medium;
+  align-items: center;
+  color: #ffffff66;
+}
+.Ref {
+  font-size: medium;
+  align-items: center;
+  color: #ffffff66;
+  z-index: 100;
+}
+.Wallet {
+  position: relative;
+  background-color: #1862d4;
+  border-radius: 12px;
+  padding: 6px 8px;
+  border-style: solid;
+  color: white;
+  width: 154px;
+  font-size: 14px;
+  height:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: middle;
+  letter-spacing: 0.39998px;
+  gap: 8px;
+  border-width: 1px;
+  border-color: #1862d4;
+  font-weight:550;
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./header";
 import "./styles/globals.css";
+import Wallet from "./wallet";
 
 export default function Home() {
   return (
@@ -14,15 +15,9 @@ export default function Home() {
         <Header />
       </div>
       <div>
-        <img src="/left-ellipse.png"
-        className="Left"
-        />
-        <img src="/right-ellipse.png"
-        className="Right"
-        />
-        <img src="/right-ellipse.png"
-        className="RightTwo"
-        />
+        <img src="/left-ellipse.png" className="Left" />
+        <img src="/right-ellipse.png" className="Right" />
+        <img src="/right-ellipse.png" className="RightTwo" />
       </div>
     </div>
   );

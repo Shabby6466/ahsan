@@ -1,5 +1,6 @@
 import styles from "./styles/header.module.css";
 import HeaderText from "./headerText";
+import Wallet from "./wallet";
 
 export default function Header() {
   return (
@@ -8,10 +9,10 @@ export default function Header() {
         <header className="">
           {/* Header shi below */}
           <div
-            className={`${styles.Header}  pt-[4px] pb-[4px] pr-[20px] pl-[20px] absolute w-[1350px]`}
+            className={`${styles.Header}  pt-[4px] pb-[4px] pr-[20px] pl-[20px] absolute w-[1350px] flex flex-row items-center justify-between`}
           >
             {/* outermost div */}
-            <div className=" flex space-x-[5px] items-center justify-left w-[900px]">
+            <div className=" flex space-x-[5px] items-center justify-left w-[600px]">
               {/* CFCX logo div */}
               <div className="flex items-center justify-left">
                 <img src="/cfcx.svg" alt="red" className="w-[60px] h-[70px]" />
@@ -20,6 +21,9 @@ export default function Header() {
                 {/* made a div for the text to be centered*/}
                 <HeaderText />
               </div>
+            </div>
+            <div className=" flex flex-col items-center justify-right w-[200px]">
+              <Wallet />
             </div>
           </div>
           <div></div>
