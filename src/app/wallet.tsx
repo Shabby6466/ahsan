@@ -4,13 +4,11 @@ import React, { useState } from "react";
 const FlagDropdown = () => {
   return (
     <div className="DropdownMenu left-[-54] rounded-md shadow-lg ring-0">
-      <div className="py-1">
-        <div className="LanguageStuff">
-          Language
-        </div>
+      <div className="DropdownText py-1">
+        <div className="LanguageStuff">Language</div>
         <a
           href="#"
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w- rounded-lg"
           role="menuitem"
         >
           A!

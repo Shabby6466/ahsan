@@ -151,19 +151,31 @@
   position: absolute;
   backdrop-filter: blur(20.1px);
   top: 30px;
-  width: 120px;
+  width: 130px;
   min-width: 16px;
   min-height: 16px;
-  max-height: calc(100%-96px)
+  max-height: calc(100%-96px);
+  border-radius: 15px;
+  padding: 2px 2px;
 }
-.LanguageStuff{
+.LanguageStuff {
   -webkit-box-align: center;
-    align-items: center;
-    border-bottom: 1px solid rgba(255, 0, 0, 0.19);
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.19);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
   padding: 21px 25px;
+  border-radius: 0px;
+  border-color: #ffffff30;
+}
+.DropdownText{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.a{
+  
 }
 ul {
   list-style-type: none;
