@@ -4,8 +4,23 @@ import React, { useState } from "react";
 const FlagDropdown = () => {
   return (
     <div className="DropdownMenu left-[-54] rounded-md shadow-lg ring-0">
-      <div className="DropdownText py-1">
+      <div className="DropdownText flex flex-col items-center py-1">
         <div className="LanguageStuff">Language</div>
+        <div className = "FF30">
+        <a
+          href="#"
+          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w- rounded-lg"
+          role="menuitem"
+        >
+          A!
+        </a>
+        <a
+          href="#"
+          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w- rounded-lg"
+          role="menuitem"
+        >
+          A!
+        </a>
         <a
           href="#"
           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w- rounded-lg"
@@ -27,6 +42,7 @@ const FlagDropdown = () => {
         >
           C.
         </a>
+        </div>
       </div>
     </div>
   );
